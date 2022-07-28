@@ -1,0 +1,37 @@
+@import url(variaveis.css);
+
+body {
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-size: 16px;
+}
+
+.container {
+    margin: 10rem auto;
+    width: 80%;
+}
+
+.titulo {
+    font-family: var(--kdam);
+}
+
+.titulo--secao {
+    border-bottom: 5px solid var(--roxo);
+    color: var(--roxo);
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 0.35rem ;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 6rem auto;
+        width: 100%;
+    }
+
+    .titulo--secao {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}

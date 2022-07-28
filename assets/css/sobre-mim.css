@@ -1,0 +1,252 @@
+@import url(variaveis.css);
+
+.sobre-mim__info {
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.sobre-mim__retrato {
+    border-radius: 100%;
+    height: 200px;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    width: 200px;
+}
+
+.sobre-mim__nome {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+.sobre-mim__texto {
+    color: var(--cinza);
+}
+
+.sobre-mim__conteudo-midias {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 0 0;
+}
+
+.sobre-mim__midias {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.sobre-mim__midias-link {
+    color: var(--preto);
+    margin-right: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sobre-mim__midias-link:hover {
+    color: var(--roxo);
+    font-weight: 500;
+}
+
+.sobre-mim__curriculo {
+    align-items: center;
+    background-color: var(--roxo);
+    border: none;
+    color: var(--branco);
+    display: flex;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    padding: .7rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sobre-mim__curriculo:before {
+    background-image: url(../icon/baixar.svg);
+    background-size: 1.5rem 1.5rem;
+    content: '';
+    display: inline-block;
+    height: 1.5rem;
+    margin-right: .5rem;
+    width: 1.5rem;
+}
+
+.sobre-mim__curriculo:hover {
+    background-color: var(--branco);
+    border: 1px solid var(--roxo);
+    color: var(--roxo);
+    cursor: pointer;
+}
+
+.sobre-mim__curriculo:hover:before {
+    background-image: url(../icon/baixar_roxo.svg);
+    background-size: 1.5rem 1.5rem;
+    content: '';
+    display: inline-block;
+    height: 1.5rem;
+    margin-right: .5rem;
+    width: 1.5rem;
+}
+
+.sobre-mim__curriculo:active {
+    padding: .5rem .8rem;
+}
+
+.sobre-mim__skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.sobre-mim__skills-item {
+    align-items: center;
+    display: flex;
+    width: 23%;
+}
+
+.sobre-mim__skills-icone {
+    border-right: 1px solid var(--cinza);
+    height: 60px;
+    padding-right: 0.5rem;
+    width: 60px;
+}
+
+.sobre-mim__skills-icone--html {
+    content: url(../icon/html.svg);
+}
+
+.sobre-mim__skills-icone--css {
+    content: url(../icon/css.svg);
+}
+
+.sobre-mim__skills-icone--js {
+    content: url(../icon/javascript.svg);
+}
+
+.sobre-mim__skills-icone--angular {
+    content: url(../icon/angular.svg);
+}
+
+.sobre-mim__skills-icone--html:hover {
+    content: url(../icon/html_colorido.svg);
+}
+
+.sobre-mim__skills-icone--css:hover {
+    content: url(../icon/css_colorido.svg);
+}
+
+.sobre-mim__skills-icone--js:hover {
+    content: url(../icon/javascript_colorido.svg);
+}
+
+.sobre-mim__skills-icone--angular:hover {
+    content: url(../icon/angular_colorido.svg);
+}
+
+.sobre-mim__skills-conteudo {
+    padding-left: 1rem;
+}
+
+.sobre-mim__skills-nome {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.sobre-mim__skills-descricao {
+    color: var(--cinza);
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 338px) {
+    .sobre-mim__midias {
+        flex-direction: column;
+    }
+
+    .sobre-mim__midias li {
+        margin-top: 1rem;
+    }
+
+    .sobre-mim__midias li:first-child {
+        margin-top: 0;
+    }
+
+    .sobre-mim__retrato {
+        width: 70vw;
+        height: 70vw;
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sobre-mim__texto {
+        text-align: center;
+        margin: 2rem 2rem 0 2rem;
+    }
+
+    .sobre-mim__conteudo-midias {
+        flex-direction: column;
+        margin: 1rem auto 0 auto;
+    }
+
+    .sobre-mim__midias-link {
+        margin-left: 1rem;
+    }
+
+    .sobre-mim__skills {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .sobre-mim__skills-item {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sobre-mim__skills-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .sobre-mim__skills-icone {
+        border-right: 0;
+        margin-bottom: .2rem;
+        padding: 0;
+    }
+
+    .sobre-mim__skills-conteudo {
+        border-top: 1px solid var(--cinza);
+        display: block;
+        padding: .5rem 0 0;
+        text-align: center;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sobre-mim__info {
+        flex-direction: column;
+    }
+
+    .sobre-mim__nome {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .sobre-mim__conteudo-midias {
+        margin-right: 0;
+    }
+
+    .sobre-mim__skills {
+        flex-wrap: wrap;
+    }
+
+    .sobre-mim__skills-item {
+        margin-bottom: 2rem;
+        width: 48%;
+    }
+
+    .sobre-mim__retrato {
+        margin: 0 auto;
+    }
+}

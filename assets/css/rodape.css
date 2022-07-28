@@ -1,0 +1,68 @@
+@import url(variaveis.css);
+
+.rodape {
+    background-color: var(--roxo-escuro);
+}
+
+.rodape__container {
+   margin: 0 auto;
+   padding-top: 2rem;
+   width: 70%;
+}
+
+.rodape__logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__logo-link {
+    margin-bottom: 4rem;
+    width: 30%;
+}
+
+.rodape__logo {
+    width: 100%;
+}
+
+.rodape__copyright {
+    border-top: 1px solid var(--cinza);
+    color: var(--cinza);
+    font-size: 0.85rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.rodape__link {
+    color: red;
+    text-decoration: none;
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape__container {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .rodape__logo-container {
+        border-bottom: 1px solid var(--cinza);
+    }
+
+    .rodape__logo-link {
+        margin-bottom: 1rem;
+        width: 40%;
+    }
+
+    .rodape__copyright {
+        border: none;
+        font-size: 0.7rem;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+        padding-top: .5rem;
+        width: 70%;
+    }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>João Moreno</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300;400;500;600;700&display=swap">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/destaque.css">
+        <link rel="stylesheet" href="assets/css/projetos.css">
+        <link rel="stylesheet" href="assets/css/sobre-mim.css">
+        <link rel="stylesheet" href="assets/css/contato.css">
+        <link rel="stylesheet" href="assets/css/rodape.css">
+    </head>
+
+    <body>
+
+        <header class="cabecalho">
+            <div class="cabecalho__container">
+                <a href="index.html" class="cabecalho__logo-link"><img src="assets/img/logo-jmoreno.svg" alt="Logotipo do portfolio de João Moreno" class="cabecalho__logo"></a>
+                <nav aria-label="menu de navegação">
+                    <ul class="cabecalho__navegacao cabecalho__esconde">
+                        <li><a href="index.html" class="cabecalho__link">Home</a></li>
+                        <li><a href="#projetos" class="cabecalho__link">Projetos</a></li>
+                        <li><a href="#sobre-mim" class="cabecalho__link">Sobre Mim</a></li>
+                        <li><a href="#contato" class="cabecalho__link">Contato</a></li>
+                    </ul>
+                </nav>
+                <span data-sanduiche></span>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="destaque container">
+                <div class="destaque__descricao">
+                    <h1 class="destaque__titulo"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" class="destaque__titulo-link">João Moreno</a></h1>
+                    <h2 class="destaque__subtitulo">front-end developer</h2>
+                    <p class="destaque__texto">Construção de sites bem estruturados e responsivos com agilidade. Focado no progresso e crescimento constante, buscando aprender e manter-se sempre atualizado para levar os projetos em que estiver envolvido ao constante e continuo sucesso</p>
+                </div>
+                <img src="assets/img/retrato_destaque.png" alt="Retrato de João Moreno" class="destaque__retrato">        
+            </section>
+
+            <section class="projetos container" id="projetos">
+                <div class="projetos__titulo">
+                    <h2 class="titulo titulo--secao">Projetos</h2>
+                </div>
+                <ul class="projetos__lista">
+                    <li class="projetos__item-lista">
+                        <div> 
+                            <div class="imagem-frame">
+                                <img src="assets/img/projeto_hzc.svg" alt="Logo projeto HZC" class="projetos__imagem projetos__imagem--hzc">
+                            </div>   
+                            <h3 class="projetos__nome titulo">HZC</h3>
+                            <p class="projetos__descricao">Projeto com foco em utilização de Flexbox e Grid layout.</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/hzc-alura/" class="projetos__link">ver projeto</a>
+                    </li>
+                    <li class="projetos__item-lista">
+                        <div>
+                            <div class="imagem-frame">
+                                <img src="assets/img/projeto_casaverde.svg" alt="Logo projeto Casa Verde" class="projetos__imagem">
+                            </div>
+                            <h3 class="projetos__nome titulo">Casa Verde</h3>
+                            <p class="projetos__descricao">Projeto de uma loja de produtos botânicos com foco na utilização de estilos componentizados.</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/casaverde-alura/" class="projetos__link">ver projeto</a>
+                    </li>
+                    <li class="projetos__item-lista" id="projeto-ancora">
+                        <div>
+                            <div class="imagem-frame">
+                                <img src="assets/img/projeto_vandecospizza.svg" alt="Logo projeto Vandeco's Pizzaria" class="projetos__imagem">
+                            </div>
+                            <h3 class="projetos__nome titulo">Vandeco's Pizzaria</h3>
+                            <p class="projetos__descricao">Projeto pessoal, utilizando HTML e CSS, de um site para uma pizzaria local fictícia (responsivo ainda não foi implementado).</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/vandecos-pizzaria/" class="projetos__link">ver projeto</a>
+                    </li>
+                    <li class="projetos__item-lista esconde-celular" data-projeto="celular">
+                        <div>
+                            <div class="imagem-frame">
+                                <img src="assets/img/projeto_robotron.png" alt="Projeto Robotron 2000" class="projetos__imagem">
+                            </div>
+                            <h3 class="projetos__nome titulo">Robotron 2000</h3>
+                            <p class="projetos__descricao">Projeto JavaScript com foco em manipulação do DOM.</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/robotron-2000/" class="projetos__link">ver projeto</a>
+                    </li>
+                    <li class="projetos__item-lista esconde-tablet" data-projeto="tablet">
+                        <div>
+                            <div class="imagem-frame">
+                                <p class="imagem-embreve">Em Breve!</p>
+                            </div>
+                            <h3 class="projetos__nome titulo">Em Breve</h3>
+                            <p class="projetos__descricao">Um projeto será adicionado aqui em breve!</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="#" class="projetos__link">ver projeto</a>
+                    </li>
+                    <li class="projetos__item-lista esconde-tablet" data-projeto="tablet">
+                        <div>
+                            <div class="imagem-frame">
+                                <p class="imagem-embreve">Em Breve!</p>
+                            </div>
+                            <h3 class="projetos__nome titulo">Em Breve</h3>
+                            <p class="projetos__descricao">Um projeto será adicionado aqui em breve!</p>
+                        </div>
+                        <a target="_blank" rel="noopener noreferral" href="#" class="projetos__link">ver projeto</a>
+                    </li>
+                </ul>
+                <a href="#projeto-ancora" class="projetos__ver-mais">Ver Mais</a>
+            </section>
+
+            <section class="sobre-mim container" id="sobre-mim">
+                <h2 class="sobre-mim__titulo titulo titulo--secao">Sobre Mim</h2>
+                <div class="sobre-mim__info">
+                    <img src="assets/img/retrato.png" alt="Retrato de João Moreno" class="sobre-mim__retrato">
+                    <div>
+                        <h3 class="sobre-mim__nome titulo">João Pedro Moreno</h3>
+                        <p class="sobre-mim__texto">Dentro das variadas ramificações presentes no mundo da programação, eu me tornei para o lado do desenvolvimento front-end. A partir daí, passei a estudar profundamente as principais tecnologias utilizadas (HTML, CSS e JavaScript), buscando adquirir as competências necessárias para me tornar um desenvolvedor. Atualmente, mesmo já tendo um conhecimento bastante consolidado, continuo constantemente estudando mais, sempre aprimorando meus conhecimentos.</p>
+                        <div class="sobre-mim__conteudo-midias">
+                            <ul class="sobre-mim__midias">
+                                <li><a href="https://www.instagram.com/joaomorenop/" target="_blank" rel="noopener noreferral" class="sobre-mim__midias-link">Instagram</a></li>
+                                <li><a href="https://github.com/Moreno1337" target="_blank" rel="noopener noreferral" class="sobre-mim__midias-link">Github</a></li>
+                                <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" target="_blank" rel="noopener noreferral" class="sobre-mim__midias-link">Linkedin</a></li>
+                            </ul>
+                            <a href="assets/files/curriculo.pdf" download="Currículo - João Moreno" class="sobre-mim__curriculo">Currículo</a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="sobre-mim__skills">
+                    <li class="sobre-mim__skills-item">
+                        <span class="sobre-mim__skills-icone sobre-mim__skills-icone--html"></span>
+                        <div class="sobre-mim__skills-conteudo">
+                            <h4 class="sobre-mim__skills-nome">HTML 5</h4>
+                            <p class="sobre-mim__skills-descricao">Construção de websites bem estruturados</p>
+                        </div>
+                    </li>
+                    <li class="sobre-mim__skills-item">
+                        <span class="sobre-mim__skills-icone sobre-mim__skills-icone--css"></span>
+                        <div class="sobre-mim__skills-conteudo">
+                            <h4 class="sobre-mim__skills-nome">CSS 3</h4>
+                            <p class="sobre-mim__skills-descricao">Design trabalhado e responsivo</p>
+                        </div>
+                    </li>
+                    <li class="sobre-mim__skills-item">
+                        <span class="sobre-mim__skills-icone sobre-mim__skills-icone--js"></span>
+                        <div class="sobre-mim__skills-conteudo">
+                            <h4 class="sobre-mim__skills-nome">JavaScript</h4>
+                            <p class="sobre-mim__skills-descricao">Trazendo vida ao site</p>
+                        </div>
+                    </li>
+                    <li class="sobre-mim__skills-item">
+                        <span class="sobre-mim__skills-icone sobre-mim__skills-icone--angular"></span>
+                        <div class="sobre-mim__skills-conteudo">
+                            <h4 class="sobre-mim__skills-nome">Angular</h4>
+                            <p class="sobre-mim__skills-descricao">Desenvolvimento de aplicações com agilidade</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="contato container" id="contato">
+                <div class="contato__titulo">
+                    <h2 class="titulo titulo--secao">Contato</h2>
+                </div>
+                <ul class="contato__lista">
+                    <li class="contato__item-lista"><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" target="_blank" rel="noopener noreferral" class="contato__link"><img src="assets/icon/linkedin.svg" alt="Ícone do Linkedin" class="contato__midia-imagem"></a></li>
+                    <li class="contato__item-lista"><a href="https://www.instagram.com/joaomorenop/" target="_blank" rel="noopener noreferral" class="contato__link"><img src="assets/icon/instagram.svg" alt="Ícone do Instagram" class="contato__midia-imagem"></a></li>
+                    <li class="contato__item-lista"><a href="https://github.com/Moreno1337" target="_blank" rel="noopener noreferral" class="contato__link"><img src="assets/icon/github.svg" alt="Ícone do GitHub" class="contato__midia-imagem"></a></li>
+                </ul>
+                <address class="contato__dados">
+                    <p class="contato__dados-item"><img src="assets/icon/email.svg" alt="Email" class="contato__dados-icone">cjpm4000@gmail.com</p>
+                    <p class="contato__dados-item"><img src="assets/icon/celular.svg" alt="Celular" class="contato__dados-icone"><a class="contato__celular" href="tel:5541991521235">+55 41 9 9152-1235</a></p>
+                    <p class="contato__dados-item"><img src="assets/icon/endereço.svg" alt="Endereço" class="contato__dados-icone">Quatro Barras, PR - Brasil</p>
+                </address>
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape__container">
+                <div class="rodape__logo-container">
+                    <a href="index.html" class="rodape__logo-link"><img src="assets/img/logo-jmoreno_2.svg" alt="Logotipo do portfolio de João Moreno" class="rodape__logo"></a>
+                </div>
+                <p class="rodape__copyright">&copy; 2022 Portfólio João Moreno - Todos os direitos reservados | Desenvolvido por <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" target="_blank" rel="noopener noreferral" class="rodape__link">João Moreno</a></p>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

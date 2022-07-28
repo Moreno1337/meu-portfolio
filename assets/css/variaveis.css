@@ -1,0 +1,11 @@
+:root {
+    --branco: #FFFFFF;
+    --cinza: #777777;
+    --cinza-claro: #fcfcfc;
+    --preto: #000000;
+    --roxo: #801074;
+    --roxo-escuro: rgb(41, 0, 60);
+
+    --kdam: 'Kdam Thmor Pro', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
