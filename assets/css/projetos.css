@@ -58,6 +58,10 @@
     width: 60%;
 }
 
+.projetos__imagem--pvtcode {
+    height: max-content;
+}
+
 .projetos__nome {
     font-size: 1.5rem;
     font-weight: 700;
