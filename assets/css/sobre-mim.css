@@ -238,6 +238,7 @@
     }
 
     .sobre-mim__skills {
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
