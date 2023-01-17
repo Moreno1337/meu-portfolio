@@ -42,7 +42,8 @@
 }
 
 .destaque__retrato {
-    height: calc(55vh - 1.5rem);
+    height: calc(55vw - 1.5rem);
+    max-height: 440px;
 }
 
 @media screen and (max-width: 768px) {

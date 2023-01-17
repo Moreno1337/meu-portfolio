@@ -1,5 +1,9 @@
 @import url(variaveis.css);
 
+main {
+    margin-top: calc(184.25px + 3rem);
+}
+
 body {
     color: var(--preto);
     font-family: var(--montserrat);
