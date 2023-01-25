@@ -28,6 +28,49 @@ body {
     padding-bottom: 0.35rem ;
 }
 
+.botao-idioma {
+    padding: 2px 8px 2px 15px;
+    font-family: var(--montserrat);
+    display: flex;
+    align-items: center;
+    z-index: 200;
+    background-color: var(--branco);
+    transform: translateY(-300%);
+    border: 1px solid var(--preto);
+    border-left: none;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 500ms;
+}
+
+.botao-idioma--brasil {
+    position: fixed;
+    left: -65px;
+}
+
+.botao-idioma--usa {
+    position: fixed;
+    left: -85px;
+}
+
+.botao-idioma:hover {
+    font-weight: 600;
+    left: -5px;
+    cursor: pointer;
+}
+
+.botao-idioma-imagem {
+    width: 30px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .botao-idioma {
+        transform: translateY(-160%);
+    }    
+}
+
 @media screen and (max-width: 768px) {
     .container {
         margin: 6rem auto;
@@ -37,5 +80,9 @@ body {
     .titulo--secao {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+
+    .botao-idioma {
+        transform: translateY(-300%);
     }
 }

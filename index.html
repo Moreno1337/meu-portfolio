@@ -35,13 +35,15 @@
             </div>
         </header>
 
+        <button class="botao-idioma botao-idioma--brasil" data-idioma="pt-br">Idioma: <img class="botao-idioma-imagem" src="assets/icon/brasil.png" alt="Idioma PT-BR"></button>
+
         <main>
 
             <section class="destaque container">
                 <div class="destaque__descricao">
                     <h1 class="destaque__titulo"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" class="destaque__titulo-link">João Moreno</a></h1>
                     <h2 class="destaque__subtitulo">front-end developer</h2>
-                    <p class="destaque__texto">Construção de sites bem estruturados e responsivos com agilidade. Focado no progresso e crescimento constante, buscando aprender e manter-se sempre atualizado para levar os projetos em que estiver envolvido ao constante e contínuo sucesso</p>
+                    <p class="destaque__texto">Construção de sites bem estruturados e responsivos com agilidade. Focado no progresso e crescimento constante, buscando aprender e manter-se sempre atualizado para levar os projetos em que estiver envolvido ao constante e contínuo sucesso.</p>
                 </div>
                 <img src="assets/img/retrato.png" alt="Retrato de João Moreno" class="destaque__retrato">        
             </section>
@@ -52,7 +54,7 @@
                 </div>
                 <ul class="projetos__lista">
                     <li class="projetos__item-lista">
-                        <div>
+                        <div data-projetos="privatecode">
                             <div class="imagem-frame">
                                 <img src="assets/img/logoPrivateCode.png" alt="Logo PrivateCode" class="projetos__imagem projetos__imagem--pvtcode">
                             </div>
@@ -62,7 +64,7 @@
                         <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/desafio-privatecode/" class="projetos__link">ver projeto</a>
                     </li>
                     <li class="projetos__item-lista">
-                        <div>
+                        <div data-projetos="spotify">
                             <div class="imagem-frame">
                                 <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet" class="projetos__imagem--spotify">
                                     <g fill-rule="evenodd">
@@ -76,7 +78,7 @@
                         <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/lp-spotify/" class="projetos__link">ver projeto</a>
                     </li>
                     <li class="projetos__item-lista">
-                        <div> 
+                        <div data-projetos="hzc"> 
                             <div class="imagem-frame">
                                 <img src="assets/img/projeto_hzc.svg" alt="Logo projeto HZC" class="projetos__imagem projetos__imagem--hzc">
                             </div>   
@@ -86,7 +88,7 @@
                         <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/hzc-alura/" class="projetos__link">ver projeto</a>
                     </li>
                     <li class="projetos__item-lista esconde-celular" data-projeto="celular">
-                        <div>
+                        <div data-projetos="vandecosPizzaria">
                             <div class="imagem-frame">
                                 <img src="assets/img/projeto_vandecospizza.svg" alt="Logo projeto Vandeco's Pizzaria" class="projetos__imagem">
                             </div>
@@ -96,7 +98,7 @@
                         <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/vandecos-pizzaria/" class="projetos__link">ver projeto</a>
                     </li>
                     <li class="projetos__item-lista esconde-tablet" data-projeto="tablet">
-                        <div>
+                        <div data-projetos="robotron">
                             <div class="imagem-frame">
                                 <img src="assets/img/projeto_robotron.png" alt="Projeto Robotron 2000" class="projetos__imagem">
                             </div>
@@ -106,7 +108,7 @@
                         <a target="_blank" rel="noopener noreferral" href="https://moreno1337.github.io/robotron-2000/" class="projetos__link">ver projeto</a>
                     </li>
                     <li class="projetos__item-lista esconde-tablet" id="projeto-ancora" data-projeto="tablet">
-                        <div>
+                        <div data-projetos="emBreve">
                             <div class="imagem-frame">
                                 <p class="imagem-embreve">Em Breve!</p>
                             </div>
@@ -197,6 +199,7 @@
         </footer>
 
         <script src="js/main.js"></script>
+        <script src="js/language.js"></script>
 
     </body>
 </html>
