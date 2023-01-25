@@ -36,7 +36,7 @@ const traducoes = {
     },
     sobreMim: {
         texto: 'Within the various ramifications present in the programming world, I turned myself towards the front-end development. From there on, I started to deeply study the main technologies utilized, seeking to gain the competences necessary to become a developer. Currently, I already have acquired a lot of knowledge and I keep, constantly, studying more, always improving my skills and not settling down.',
-        curriculo: 'Curriculum',
+        curriculo: 'Resume',
         html: 'Well structured websites construction',
         css: 'Beautiful and responsive design',
         javascript: 'Bringing life to the website',

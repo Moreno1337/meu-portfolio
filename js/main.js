@@ -61,6 +61,10 @@ botaoIdioma.addEventListener('click', () => {
         botaoIdioma.appendChild(img);
         botaoIdioma.classList.remove('botao-idioma--brasil');
         botaoIdioma.classList.add('botao-idioma--usa');
+
+        curriculo.setAttribute('href', 'assets/files/curriculum.pdf');
+        curriculo.setAttribute('download', 'Resume - João Moreno');
+
         traduzirSite('en-us');
     } else {
         botaoIdioma.innerHTML = 'Idioma: ';
@@ -74,6 +78,10 @@ botaoIdioma.addEventListener('click', () => {
         botaoIdioma.appendChild(img);
         botaoIdioma.classList.remove('botao-idioma--usa');
         botaoIdioma.classList.add('botao-idioma--brasil');
+
+        curriculo.setAttribute('href', 'assets/files/curriculo.pdf');
+        curriculo.setAttribute('download', 'Currículo - João Moreno');
+
         traduzirSite('pt-br');
     }
 });
