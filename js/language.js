@@ -16,9 +16,9 @@ const traducoes = {
             titulo: 'Spotify LP',
             descricao: 'Recriation of the Spotify BR Landing Page, using the oficial site as visual reference.',
         },
-        hzc: {
-            titulo: 'HZC',
-            descricao: 'CSS Flexbox and Grid layout focused project.',
+        fercamp: {
+            titulo: 'Fercamp Tools',
+            descricao: 'Website for a tools store, with a landing page, segments and products with pagination. Made with HTML, CSS and JavaScript.',
         },
         vandecosPizzaria: {
             titulo: "Vandeco's Pizzaria",
@@ -63,9 +63,9 @@ const portugues = {
             titulo: 'LP do Spotify',
             descricao: 'Recriação da Landing Page do Spotify BR, usando o site oficial como base visual.',
         },
-        hzc: {
-            titulo: 'HZC',
-            descricao: 'Projeto com foco em utilização de CSS Flexbox e Grid layout.',
+        fercamp: {
+            titulo: 'Fercamp Ferramentas',
+            descricao: 'Site de uma loja de Ferramentas e Ferragens, com uma página inicial, segmentos e produtos com paginação. Utilizando HTML, CSS e JavaScript.',
         },
         vandecosPizzaria: {
             titulo: "Vandeco's Pizzaria",
@@ -140,8 +140,9 @@ function traduzirSite(idioma) {
             } else if(projeto.dataset.projetos == 'spotify') {
                 projeto.children[1].innerHTML = traducoes.projetos.spotify.titulo;
                 projeto.children[2].innerHTML = traducoes.projetos.spotify.descricao;
-            } else if(projeto.dataset.projetos == 'hzc') {
-                projeto.children[2].innerHTML = traducoes.projetos.hzc.descricao;
+            } else if(projeto.dataset.projetos == 'fercamp') {
+                projeto.children[1].innerHTML = traducoes.projetos.fercamp.titulo;
+                projeto.children[2].innerHTML = traducoes.projetos.fercamp.descricao;
             } else if(projeto.dataset.projetos == 'vandecosPizzaria') {
                 projeto.children[2].innerHTML = traducoes.projetos.vandecosPizzaria.descricao;
             } else if(projeto.dataset.projetos == 'robotron') {
@@ -184,8 +185,9 @@ function traduzirSite(idioma) {
             } else if(projeto.dataset.projetos == 'spotify') {
                 projeto.children[1].innerHTML = portugues.projetos.spotify.titulo;
                 projeto.children[2].innerHTML = portugues.projetos.spotify.descricao;
-            } else if(projeto.dataset.projetos == 'hzc') {
-                projeto.children[2].innerHTML = portugues.projetos.hzc.descricao;
+            } else if(projeto.dataset.projetos == 'fercamp') {
+                projeto.children[1].innerHTML = portugues.projetos.fercamp.titulo;
+                projeto.children[2].innerHTML = portugues.projetos.fercamp.descricao;
             } else if(projeto.dataset.projetos == 'vandecosPizzaria') {
                 projeto.children[2].innerHTML = portugues.projetos.vandecosPizzaria.descricao;
             } else if(projeto.dataset.projetos == 'robotron') {
