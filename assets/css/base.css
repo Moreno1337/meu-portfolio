@@ -8,7 +8,7 @@ body {
     color: var(--preto);
     font-family: var(--montserrat);
     font-size: 16px;
-    background-image: url(../icon/baixar_roxo.svg), url(../icon/angular_colorido.svg), url(../icon/css_colorido.svg), url(../icon/html_colorido.svg),  url(../icon/javascript_colorido.svg), url(../icon/usa.png);
+    background-image: url(../icon/baixar_roxo.svg), url(../icon/react_colorido.svg), url(../icon/css_colorido.svg), url(../icon/html_colorido.svg),  url(../icon/javascript_colorido.svg), url(../icon/usa.png);
     background-position: -9999px -9999px;
     background-repeat: no-repeat;
 }

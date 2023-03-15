@@ -123,8 +123,8 @@
     content: url(../icon/javascript.svg);
 }
 
-.sobre-mim__skills-icone--angular {
-    content: url(../icon/angular.svg);
+.sobre-mim__skills-icone--react {
+    content: url(../icon/react.svg);
 }
 
 .sobre-mim__skills-icone--html:hover {
@@ -139,8 +139,8 @@
     content: url(../icon/javascript_colorido.svg);
 }
 
-.sobre-mim__skills-icone--angular:hover {
-    content: url(../icon/angular_colorido.svg);
+.sobre-mim__skills-icone--react:hover {
+    content: url(../icon/react_colorido.svg);
 }
 
 .sobre-mim__skills-conteudo {

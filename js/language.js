@@ -40,6 +40,7 @@ const traducoes = {
         html: 'Well structured websites construction',
         css: 'Beautiful and responsive design',
         javascript: 'Bringing life to the website',
+        react: 'The largest and most used JS library.'
     },
     rodape: {
         copyright: '&copy; 2022 João Moreno Portfolio - All rights reserved | Developed by <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" target="_blank" rel="noopener noreferral" class="rodape__link">João Moreno</a>',
@@ -87,6 +88,7 @@ const portugues = {
         html: 'Construção de websites bem estruturados',
         css: 'Design trabalhado e responsivo',
         javascript: 'Trazendo vida ao site',
+        react: 'A maior e mais utilizada biblioteca JS.'
     },
     rodape: {
         copyright: '&copy; 2022 Portfólio João Moreno - Todos os direitos reservados | Desenvolvido por <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-moreno-9ab40b176/" target="_blank" rel="noopener noreferral" class="rodape__link">João Moreno</a>',
@@ -164,6 +166,8 @@ function traduzirSite(idioma) {
                 descricao.innerHTML = traducoes.sobreMim.css;
             } else if(descricao.previousElementSibling.innerHTML == 'JavaScript') {
                 descricao.innerHTML = traducoes.sobreMim.javascript;
+            } else if(descricao.previousElementSibling.innerHTML == 'React') {
+                descricao.innerHTML = traducoes.sobreMim.react;
             }
         });
         
@@ -209,6 +213,8 @@ function traduzirSite(idioma) {
                 descricao.innerHTML = portugues.sobreMim.css;
             } else if(descricao.previousElementSibling.innerHTML == 'JavaScript') {
                 descricao.innerHTML = portugues.sobreMim.javascript;
+            } else if(descricao.previousElementSibling.innerHTML == 'React') {
+                descricao.innerHTML = portugues.sobreMim.react;
             }
         });
 
